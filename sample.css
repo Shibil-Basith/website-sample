@@ -1,0 +1,394 @@
+*{
+    text-decoration: none!important;
+}
+
+.second{
+    background: url(/pexels-eberhard-grossgasteiger-2088170.jpg);
+    padding-top: 5em;
+    padding-bottom: 10em;
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+
+.third{
+    background: url(/pexels-shonejai-1227497.jpg);
+    background-size: cover;
+    color: rgba(255, 255, 255, 0.753);
+   
+
+}
+
+.first{
+    background-image: url(/pexels-moose-photos-1037996.jpg);
+    background-size: cover;
+
+}
+
+.sectionopacity{
+    background: rgba(0, 0, 0, 0.644)!important;
+}
+
+.navbarset{
+    width: 98%;
+    margin-top: 2em;
+    border-radius: 0.6em;
+    background: rgba(36, 35, 35, 0.308);
+    text-transform: uppercase;
+    position: fixed!important;
+    color: white;
+    
+}
+
+.navbar a:active {
+    color: green;
+}
+
+.nav-item:hover{
+    border-bottom: 1px solid white;
+    transition-property: width;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.nav-link{
+    color: white!important;
+}
+
+.header-left{
+    width: 73%;
+}
+
+.header-right{
+    width: 27%;
+}
+
+.home{
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+.home-right{
+    float: left;
+    width: 20%;
+}
+
+.home-left{
+    float: left;
+    width: 80%;
+}
+
+.home-right-image{
+    height: 30em;
+    width: 30em;
+    position: relative;
+    animation: mymove 10s 1!important;
+}
+
+#colorsetnav{
+    color: indianred;
+}
+
+.projects{
+    margin-bottom: 5em!important;
+    padding-bottom: 10em!important;
+}
+
+.projects-contents{
+    padding-top: 5em;
+}
+
+.projects-left{
+    float: left;
+    justify-content: center!important;
+    display: flex;
+    padding-bottom: 2em;
+}
+
+.projects-right{
+    padding-top: 5em;
+    float: left;
+    align-items: center;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.projects-images{
+    width: 15em;
+    height: 12em;
+    border-radius: 1em;
+}
+
+.mobile-text {
+    display: flex;
+    justify-content: center;
+}
+
+.about{
+    display: flex!important;
+    justify-content: space-evenly;
+    position: relative;
+    padding-top: 15em;
+    padding-bottom: 15em;
+    
+}
+
+.contacts{
+    position: relative;
+    margin-top: 6em!important;
+}
+.contacts-left{
+    text-align: center;
+    margin-bottom: 3em!important;
+}
+
+.contacts-right{
+    margin-top: -3em!important;
+}
+
+.contacts-right-label{
+    margin-bottom: 1em;
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+p{
+    font-weight: bold;
+}
+
+@media (max-width: 952px){
+
+    .navbar{
+        width: 95%;
+        background: grey;
+    }
+
+    .navbar a:hover {
+        background: none;
+        color: black;
+        
+    }
+
+    a.active{
+        color: indianred;
+    }
+
+    .header-right{
+        width: 100%;
+        text-align: center;
+        transition: all .5s;
+        padding: 0px;
+
+    }
+
+    .dropdown-menu{
+        margin-top: -1em!important;
+        width: 90%;
+        text-align: center!important;
+        transform: translate(10%,0);
+    }
+
+    .navbarset{
+        background: rgba(36, 35, 35, 0.308);
+    }
+
+
+}
+
+@media only screen   
+and (min-device-width : 768px)   
+and (max-device-width : 1024px)  
+{
+    .dropdown-menu{
+        margin-top: 6em!important;
+        margin-left: 44em!important;
+        width: fit-content;
+        text-align: center!important;
+    }
+
+}
+
+@media only screen   
+and (min-width: 1030px)   
+and (max-width: 1366px)  
+{
+    .dropdown-menu{
+        margin-top: 2em!important;
+        margin-left: 44em!important;
+        width: fit-content;
+        text-align: center!important;
+    }
+    
+}
+
+
+
+
+.projects-images:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: 3;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+  .bi{
+      color: rgba(255, 255, 255, 0.589);
+  }
+
+  .bi:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+    color: white;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: 3;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+  .home-right-image{
+    animation: mymove 5s infinite;
+  }
+
+  @keyframes mymove {
+    from {left: -30%;}
+    to {left: 0%;}
+  }
+
+  .input{
+      background: rgba(245, 245, 245, 0.466);
+      border: 0;
+  }
+
+  .input-btn{
+      margin-top: 2em;
+      width: 25%;
+      height: 2em;
+      text-orientation: upright;
+      text-transform: uppercase;
+      border: 0;
+      color: rgba(245, 245, 245, 0.603);
+      border-radius: 3px!important;
+      font-style: italic;
+      font-weight: 650;
+      background: #fcf9f934;
+
+  }
+
+  .input-btn:hover{
+      background: rgba(51, 42, 42, 0.61);
+      color: white;
+  }
+
+  .navbarset > .active > a { 
+    background: green; 
+}
+
+#nav-collapse li a:hover { 
+    color: blue; 
+}
+#nav-collapse a:hover { 
+
+    background-color: gray; 
+}
+
+#nav-collapse  li.active { 
+   color:green;
+    background-color: yellow; 
+}
+#nav-collapse  li.active a {
+    color: red;
+}
+
+.dropdown-menu{
+    margin-top: 1em!important;
+    margin-left: -1em!important;
+    background: #00000024!important;
+    border: 0!important;
+}
+
+.dropdown-item{
+    color: white!important;
+}
+
+.dropdown-item:hover{
+    background: rgba(0, 0, 0, 0.425)!important;
+}
+
+.dropdown-menu:hover{
+    color: indianred;
+}
+
+  /* mouse over link */
+  a:hover {
+    color: white!important;
+    border-bottom: 10px!important;
+    border-color: black!important;
+
+  }
+  
+  /* selected link */
+  a:active {
+    color: white!important;
+  }
+
+
+  .home-button{
+    background: rgba(205, 92, 92, 0.432);
+    border: 0;
+    height: 3em;
+    width: 6em;
+    margin-top: 2em;
+    border-radius: 6px!important;
+  }
+
+  .home-button-link{
+      color: rgba(58, 56, 56, 0.452);
+      font-size: 1em;
+      font-weight: bold;
+      font-family: sans-serif;
+      font-style: italic;
+      font-stretch: expanded;
+  }
+
+  .home-button:hover{
+      background: rgba(58, 56, 56, 0.452);
+  }
+
+  .home-button-link:hover{
+      color: white!important;
+  }
+
+  .spin{
+      margin-left: 9.5em;
+      margin-top: -2em;
+  }
+  
+
