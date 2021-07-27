@@ -195,7 +195,7 @@ p{
 
 }
 
-@media (max-width: 952px){
+@media (max-width: 320px){
     .first{
         width: 130%;
     }
