@@ -3,7 +3,7 @@
 }
 
 .second{
-    background: url(/src/pexels-eberhard-grossgasteiger-2088170.jpg);
+    background: url(src/pexels-eberhard-grossgasteiger-2088170.jpg);
     padding-top: 5em;
     padding-bottom: 10em;
     background-size: cover;
@@ -12,7 +12,7 @@
 }
 
 .third{
-    background: url(/src/pexels-shonejai-1227497.jpg);
+    background: url(src/pexels-shonejai-1227497.jpg);
     background-size: cover;
     color: rgba(255, 255, 255, 0.753);
    
@@ -20,7 +20,7 @@
 }
 
 .first{
-    background-image: url(/src/pexels-moose-photos-1037996.jpg);
+    background-image: url(src/pexels-moose-photos-1037996.jpg);
     background-size: cover;
 
 }
