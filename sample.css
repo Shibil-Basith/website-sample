@@ -17,7 +17,7 @@
     background: url(src/pexels-shonejai-1227497.jpg);
     background-size: cover;
     color: rgba(255, 255, 255, 0.753);
-    width: max-content;
+    width: 100%;
     
    
 
@@ -26,7 +26,7 @@
 .first{
     background-image: url(src/pexels-moose-photos-1037996.jpg);
     background-size: cover;
-    width: max-content;
+    width: 100%;
 
 }
 
