@@ -2,6 +2,10 @@
     text-decoration: none!important;
 }
 
+html,body{
+    overflow-x: hidden;
+}
+
 .second{
     background: url(src/pexels-eberhard-grossgasteiger-2088170.jpg);
     padding-top: 5em;
