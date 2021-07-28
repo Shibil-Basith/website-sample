@@ -8,6 +8,7 @@
     padding-bottom: 10em;
     background-size: cover;
     background-blend-mode: darken;
+    min-width: 100%;
 
 }
 
@@ -15,6 +16,7 @@
     background: url(src/pexels-shonejai-1227497.jpg);
     background-size: cover;
     color: rgba(255, 255, 255, 0.753);
+    min-width: 100%;
    
 
 }
@@ -22,6 +24,7 @@
 .first{
     background-image: url(src/pexels-moose-photos-1037996.jpg);
     background-size: cover;
+    min-width: 100%;
 
 }
 
