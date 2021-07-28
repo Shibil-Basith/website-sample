@@ -3,7 +3,7 @@
 }
 
 html,body{
-    width: min-content;
+    width: max-content;
 }
 
 .second{
