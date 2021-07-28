@@ -3,7 +3,8 @@
 }
 
 html,body{
-    overflow-x: hidden;
+    width: 100%;
+    min-width: 100%;
 }
 
 .second{
@@ -12,7 +13,7 @@ html,body{
     padding-bottom: 10em;
     background-size: cover;
     background-blend-mode: darken;
-    width: 130%;
+    
 
 }
 
@@ -20,7 +21,7 @@ html,body{
     background: url(src/pexels-shonejai-1227497.jpg);
     background-size: cover;
     color: rgba(255, 255, 255, 0.753);
-    width: 130%;
+    
    
 
 }
@@ -28,7 +29,7 @@ html,body{
 .first{
     background-image: url(src/pexels-moose-photos-1037996.jpg);
     background-size: cover;
-    width: 130%;
+    
 
 }
 
