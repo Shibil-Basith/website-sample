@@ -8,7 +8,7 @@
     padding-bottom: 10em;
     background-size: cover;
     background-blend-mode: darken;
-    width: fit-content;
+    width: max-content;
     
 
 }
@@ -17,7 +17,7 @@
     background: url(src/pexels-shonejai-1227497.jpg);
     background-size: cover;
     color: rgba(255, 255, 255, 0.753);
-    width: fit-content;
+    width: max-content;
     
    
 
