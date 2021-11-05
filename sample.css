@@ -85,7 +85,7 @@
 
 .home-right-image{
     height: 30em;
-    width: 30em;
+    width: 100%;
     position: relative;
     animation: mymove 10s 1!important;
 }
