@@ -17,7 +17,7 @@ jobs:
           ssh-keyscan -H ${{ secrets.EC2_HOST }} >> ~/.ssh/known_hosts
       - name: Copy Files
         run: |
-          scp -i ~/.ssh/id_rsa -r * \
+          sudo scp -i ~/.ssh/id_rsa -r * \
           ${{ secrets.EC2_USERNAME }}@${{ secrets.EC2_HOST }}:/var/www/html/
       - name: Print success
         run: echo "Successfully completed"
