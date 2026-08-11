@@ -13,7 +13,7 @@ pipeline{
             steps{
                 sh '''
                     ls -la
-                    rm -rf /var/www/html/
+                    rm -rf /var/www/html/*
                     cp -r website-sample/* /var/www/html/
                 '''
                 echo "deployment completed"
