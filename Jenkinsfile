@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages{
-        stage('checkout code'){
+        stage('checkout'){
             steps{
                 sh '''
                     rm -rf *
@@ -9,28 +9,11 @@ pipeline{
                 '''
             }
         }
-        stage('build'){
-            steps{
-                sh '''
-                    pwd
-                    ls -la
-                    cd website-sample
-                '''
-                echo "Building completed"
-            }
-        }
-        stage('test'){
-            steps{
-                sh '''
-                    test -e website-sample/
-                '''
-                echo "testing completed"
-            }
-        }
         stage('deploy'){
             steps{
                 sh '''
                     ls -la
+                    rm -rf /var/www/html/
                     cp -r website-sample/* /var/www/html/
                 '''
                 echo "deployment completed"
