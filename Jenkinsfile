@@ -13,9 +13,11 @@ pipeline{
     }
     stage('deploy'){
       steps{
-        rm -rf /var/www/html/*
-        cp -r website-sample/* /var/www/html
-        ls -l
+        sh '''
+          rm -rf /var/www/html/*
+          cp -r website-sample/* /var/www/html
+          ls -l
+        '''
       }
     }
   }
